@@ -27,7 +27,7 @@
 }
 
 #hero {
-  background-image: url('./image/desktop/image-hero.jpg');
+  background-image: url('../public/image/desktop/image-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
