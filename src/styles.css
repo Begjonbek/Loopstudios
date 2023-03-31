@@ -26,18 +26,18 @@
   @apply absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70;
 }
 
-#hero {
+/* #hero {
   background-image: url('../public/image/desktop/image-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   #hero {
     background-image: url('../public/image/mobile/image-hero.jpg');
     background-position: center;
   }
-}
+} */
 
 /* Hamburger Menu */
 .hamburger {

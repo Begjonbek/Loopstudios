@@ -682,6 +682,18 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-hero {
+  background-image: url(../image/desktop/image-hero.jpg);
+}
+.bg-mobile-hero {
+  background-image: url(../image/mobile/image-hero.jpg);
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
 .p-4 {
   padding: 1rem;
 }
@@ -722,10 +734,6 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 .text-lg {
   font-size: 1.125rem;
@@ -831,18 +839,18 @@ video {
   opacity: 0.7;
 }
 
-#hero {
+/* #hero {
   background-image: url('../public/image/desktop/image-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   #hero {
     background-image: url('../public/image/mobile/image-hero.jpg');
     background-position: center;
   }
-}
+} */
 
 /* Hamburger Menu */
 .hamburger {
@@ -992,6 +1000,10 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:bg-hero {
+    background-image: url(../image/desktop/image-hero.jpg);
   }
 
   .md\:p-10 {
